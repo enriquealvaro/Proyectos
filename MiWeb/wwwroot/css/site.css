@@ -184,3 +184,55 @@ img {
     outline: none;
     box-shadow: 0 0 5px rgba(45, 123, 192, 0.5);
 }
+
+ 
+.palabraLogin {
+    color: #fff;
+}
+
+..navbar {
+    background-color: #2d7bc0;
+}
+
+.navbar a {
+    color: #ffffff !important; /* Corregido */
+}
+
+.nav-link {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.nav-link.active {
+    border-bottom: 0.2rem solid #529fe3;
+    border-bottom-left-radius: 1rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #529fe3;
+}
+
+.navbar-collapse {
+    background-color: #2d7bc0;
+}
+
+/* Añadir padding para asegurar visualización correcta */
+.navbar-nav {
+    padding: 0.5rem;
+}
+
+.dropdown-item:hover {
+    background-color: #529fe3;
+}
+
+.dropdown-menu {
+    background-color: #2d7bc0;
+    border-width: 0.2rem;
+    border-color: white;
+}
+
+.user {
+    width: 25px;
+}

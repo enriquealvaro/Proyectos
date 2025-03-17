@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G0spKXZ3yWEHZ7OAt6EvA5dt8PPB0yO0ubHxuKjwj7U=",
+  "Hash": "jh4bDDAyMuxsOXiESXTFAo+RPlnDt7zor3W/jsQY0rE=",
   "Source": "MiWeb",
   "BasePath": "_content/MiWeb",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/wwwroot/index.html",
+      "SourceId": "MiWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/wwwroot/",
+      "BasePath": "_content/MiWeb",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
       "Identity": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/wwwroot/js/site.js",

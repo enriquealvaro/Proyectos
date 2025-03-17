@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
       "Id": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
