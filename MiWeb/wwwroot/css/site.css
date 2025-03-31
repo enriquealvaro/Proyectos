@@ -189,24 +189,23 @@ img {
 .palabraLogin {
     color: #fff;
 }
-
-..navbar {
-    background-color: #2d7bc0;
+.navbar {
+    background-color: #2d7bc0 !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .navbar a {
-    color: #ffffff !important; /* Corregido */
+    color: #ffffff !important;
 }
 
 .nav-link {
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
+    margin: 0 0.25rem;
 }
 
 .nav-link.active {
     border-bottom: 0.2rem solid #529fe3;
-    border-bottom-left-radius: 1rem;
     font-weight: bold;
 }
 
@@ -215,12 +214,13 @@ img {
 }
 
 .navbar-collapse {
+    padding-top: 10px;
     background-color: #2d7bc0;
 }
 
-/* Añadir padding para asegurar visualización correcta */
 .navbar-nav {
     padding: 0.5rem;
+    margin-left: 0;
 }
 
 .dropdown-item:hover {
@@ -229,10 +229,44 @@ img {
 
 .dropdown-menu {
     background-color: #2d7bc0;
-    border-width: 0.2rem;
-    border-color: white;
+    border: 0.2rem solid white;
 }
 
 .user {
     width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+/*CSS INICIO*/
+body {
+    background-color: #f8f9fa;
+}
+
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.option-card {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card i {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 15px;
 }

@@ -1,117 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/site.css">
-</head>
-<body>    
- <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">CoParental</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Calendario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cuentas</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="user" src="user-solid.svg" alt="">
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Configuración</a></li>
-              <li><a class="dropdown-item" href="login.html">Login</a></li>
-              <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <div class="wrapper bg-white">
-        <div class="h2 text-center">CoParental</div>
-        <div class="text-center pt-2">
-            <img src="logo.png" alt="Login Illustration" style="max-width: 100%; height: auto;">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2d7bc0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CoParental</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cuentas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Perfil
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <form id="loginForm" class="pt-3">
-            <div class="form-group py-2">
-                <div class="input-field"> 
-                    <span class="far fa-user p-2"></span> 
-                    <input type="email" name="email" placeholder="Correo electrónico" required class="form-control">
-                </div>
-            </div>
-            <div class="form-group py-1 pb-2">
-                <div class="input-field"> 
-                    <span class="fas fa-lock p-2"></span> 
-                    <input type="password" name="password" placeholder="Contraseña" required class="form-control"> 
-                    <button type="button" class="btn bg-white text-muted toggle-password"> 
-                        <span class="far fa-eye-slash"></span> 
-                    </button> 
-                </div>
-            </div>
-            <div class="d-flex align-items-start">
-                <div class="ml-auto"> 
-                    <a href="#" id="forgot">¿Olvidaste la contraseña?</a> 
-                </div>
-            </div> 
-            <button type="submit" class="btn btn-block text-center my-3">Log in</button>
-            <div class="text-center pt-3 text-muted">
-                ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
-            </div>
-        </form>        
+      </div>
+    </nav>
+
+
+    
+    <div class="wrapper bg-white">
+      <div class="h2 text-center">CoParental</div>
+      <div class="text-center pt-2">
+        <img
+          src="logo.png"
+          alt="Login Illustration"
+          style="max-width: 100%; height: auto"
+        />
+      </div>
+      <form id="loginForm" class="pt-3">
+        <div class="form-group py-2">
+          <div class="input-field">
+            <span class="far fa-user p-2"></span>
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo electrónico"
+              required
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="form-group py-1 pb-2">
+          <div class="input-field">
+            <span class="fas fa-lock p-2"></span>
+            <input
+              type="password"
+              name="password"
+              placeholder="Contraseña"
+              required
+              class="form-control"
+            />
+            <button
+              type="button"
+              class="btn bg-white text-muted toggle-password"
+            >
+              <span class="far fa-eye-slash"></span>
+            </button>
+          </div>
+        </div>
+        <div class="d-flex align-items-start">
+          <div class="ml-auto">
+            <a href="#" id="forgot">¿Olvidaste la contraseña?</a>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-block text-center my-3">
+          Log in
+        </button>
+        <div class="text-center pt-3 text-muted">
+          ¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a>
+        </div>
+      </form>
     </div>
 
     <script>
-document.getElementById("loginForm").addEventListener("submit", async function(event) {
-    event.preventDefault(); // Evita que la página se recargue
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", async function (event) {
+          event.preventDefault(); // Evita que la página se recargue
 
-    let usuario = {
-        Email: document.querySelector("input[name='email']").value,
-        Password: document.querySelector("input[name='password']").value
-    };
+          let usuario = {
+            Email: document.querySelector("input[name='email']").value,
+            Password: document.querySelector("input[name='password']").value,
+          };
 
-    console.log("Enviando datos:", usuario); // 🔍 Verificar datos enviados
+          console.log("Enviando datos:", usuario); // 🔍 Verificar datos enviados
 
-    try {
-        let response = await fetch("http://localhost:5156/api/usuarios/login", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(usuario)
+          try {
+            let response = await fetch(
+              "http://localhost:5156/api/usuarios/login",
+              {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(usuario),
+              }
+            );
+
+            console.log("Estado HTTP:", response.status); // 🔍 Verificar código de estado
+
+            let resultado = await response.json();
+            console.log("Respuesta del servidor:", resultado); // 🔍 Verificar respuesta JSON
+
+            if (response.ok) {
+              alert("✅ " + (resultado.mensaje || "Inicio de sesión exitoso."));
+              localStorage.setItem(
+                "usuario",
+                JSON.stringify(resultado.usuario)
+              );
+              window.location.href = "index.html";
+            } else {
+              alert("⚠️ " + (resultado.mensaje || "Error desconocido."));
+            }
+          } catch (error) {
+            console.error("Error en el login:", error);
+            alert("❌ Error al conectarse con el servidor.");
+          }
         });
+    </script>
 
-        console.log("Estado HTTP:", response.status); // 🔍 Verificar código de estado
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-        let resultado = await response.json();
-        console.log("Respuesta del servidor:", resultado); // 🔍 Verificar respuesta JSON
-
-        if (response.ok) {
-            alert("✅ " + (resultado.mensaje || "Inicio de sesión exitoso."));
-            localStorage.setItem("usuario", JSON.stringify(resultado.usuario));
-            window.location.href = "index.html";
-        } else {
-            alert("⚠️ " + (resultado.mensaje || "Error desconocido."));
-        }
-    } catch (error) {
-        console.error("Error en el login:", error);
-        alert("❌ Error al conectarse con el servidor.");
-    }
-});
-
-
-        </script>
-        
-</body>
+  </body>
 </html>
