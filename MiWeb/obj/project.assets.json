@@ -2990,19 +2990,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/enriquealvaro/.nuget/packages/": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/MiWeb.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Proyectos_I\\Proyectos\\MiWeb\\MiWeb.csproj",
       "projectName": "MiWeb",
-      "projectPath": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/MiWeb.csproj",
-      "packagesPath": "/Users/enriquealvaro/.nuget/packages/",
-      "outputPath": "/Users/enriquealvaro/Desktop/Proyectos/MiWeb/obj/",
+      "projectPath": "C:\\Users\\User\\Desktop\\Proyectos_I\\Proyectos\\MiWeb\\MiWeb.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Proyectos_I\\Proyectos\\MiWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/enriquealvaro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3077,7 +3077,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
